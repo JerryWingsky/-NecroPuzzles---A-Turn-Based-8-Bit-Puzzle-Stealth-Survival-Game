@@ -34,7 +34,6 @@ public final class button extends entity {
 }
 }
 
-        //will continue the box type when we implement it
         else if (type.equals("box")) {
 
 }         
