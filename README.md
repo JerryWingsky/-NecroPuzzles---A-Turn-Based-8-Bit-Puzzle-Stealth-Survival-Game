@@ -1,4 +1,4 @@
-# "NecroPuzzles" - A Turn-Based 8-Bit Puzzle Stealth Survival Game 🧩
+![{3B97183E-E4F4-47FF-9CC9-82C9D438C800}](https://github.com/user-attachments/assets/d13243d9-418b-48f8-b833-7ea6a1f6439e)# "NecroPuzzles" - A Turn-Based 8-Bit Puzzle Stealth Survival Game 🧩
 
 ## Overview ✨
 
@@ -13,7 +13,7 @@
 - The **Quit** button, which will exit the system, ending the application.
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/eb908c16-144b-4150-bb34-0fd25ff8f1e3" alt="Image" width="500"/>
+<img src="https://github.com/user-attachments/assets/7b1b6e8e-5583-4c85-b8b0-3dc362f3cd5a" alt="Image" width="500"/>
 <br/>
 <strong><em>Figure 1: Main Menu Screen</em></strong>
 </p>
@@ -23,25 +23,25 @@
 - Player can choose any level to start from, it can be level 1 or level 4. Each with increasing difficulty & unique map designs.
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/8d1fbc95-9de6-4bc7-9ffc-ade10f56c0f6" alt="Image" width="500"/>
+<img src="https://github.com/user-attachments/assets/e88f7d7a-124d-4508-8fb0-8181d292444a" alt="Image" width="500"/>
 <br/>
 <strong><em>Figure 2: Game Level 1</em></strong>
 </p>
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/26938d94-21b1-4a8c-9720-441ba5a65b33" alt="Image" width="500"/>
+<img src="https://github.com/user-attachments/assets/22f4fd1e-caa5-4970-8001-cdca8cb8d080" alt="Image" width="500"/>
 <br/>
 <strong><em>Figure 3: Game Level 2</em></strong>
 </p>
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/c071ee7f-9a48-4ba9-84d6-8d546798f301" alt="Image" width="500"/>
+<img src="https://github.com/user-attachments/assets/988e57a8-7090-4ba0-ac84-adf1ac21ea56" alt="Image" width="500"/>
 <br/>
 <strong><em>Figure 4: Game Level 3</em></strong>
 </p>
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/eeb17161-38f0-4207-a3dd-e62b4bc11fc2" alt="Image" width="500"/>
+<img src="https://github.com/user-attachments/assets/9dd28bbe-fbae-4560-b9ee-a664d6dd14b4" alt="Image" width="500"/>
 <br/>
 <strong><em>Figure 5: Game Level 4</em></strong>
 </p>
@@ -54,7 +54,7 @@
 - Pressing `ESC` opens a pause menu with options: **Resume**, **Restart**, or **Back to Menu**.
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/85ce6705-73c4-481d-95af-4fbf22b4b161" width="500"/>
+<img src="https://github.com/user-attachments/assets/4edaba12-b797-45fa-92c0-7f6e1a34b1e3" width="500"/>
 <br/>
 <strong><em>Figure 6: Pause Screen</em></strong>
 </p>
@@ -64,7 +64,7 @@
 - Options to **Next Level** or **Quit** are shown.
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/ecc4df65-a38d-4624-8c9f-526ff691c8fd" width="500"/>
+<img src="https://github.com/user-attachments/assets/3e0e96a9-5725-4d57-b99e-b15681b03a7f" width="500"/>
 <br/>
 <strong><em>Figure 7: Win Screen</em></strong>
 </p>
@@ -72,7 +72,7 @@
 - After beating the last level, a special **Thank You Screen** is shown.
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/eb069eac-d3e8-46a8-a2a9-eb8c3878f9ab" width="500"/>
+<img src="https://github.com/user-attachments/assets/9f7fbf0d-cc7f-4a6e-bb00-041fa308389f" width="500"/>
 <br/>
 <strong><em>Figure 8: Thank You Screen</em></strong>
 </p>
@@ -82,7 +82,7 @@
 - Options to **Restart** or **Quit** are shown.
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/8d2829eb-85a8-49be-8bcd-f1ccba2ab3b7" width="500"/>
+<img src="https://github.com/user-attachments/assets/ebe69564-9919-49a3-85a7-c468af82e813" width="500"/>
 <br/>
 <strong><em>Figure 9: Death/Lose Screen</em></strong>
 </p>
