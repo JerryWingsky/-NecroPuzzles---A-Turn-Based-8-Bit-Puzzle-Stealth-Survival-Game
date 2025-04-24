@@ -1,5 +1,3 @@
-![{3B97183E-E4F4-47FF-9CC9-82C9D438C800}](https://github.com/user-attachments/assets/d13243d9-418b-48f8-b833-7ea6a1f6439e)# "NecroPuzzles" - A Turn-Based 8-Bit Puzzle Stealth Survival Game 🧩
-
 ## Overview ✨
 
 **NecroPuzzles**, a retro-styled 8-bit stealth puzzle game where survival is your only mission. Navigate through a deadly facility swarming with zombies, dodge traps, and outsmart the undead to escape. With four levels of increasing difficulty, dynamic pixel art, and immersive sound effects, NecroPuzzles delivers a thrilling mix of strategy & suspense. Whether you're unlocking doors, avoiding spikes, or planning your next stealthy move, every step counts. Victory awaits—but only for the clever & the strongest. Good luck, and may the best player win.
