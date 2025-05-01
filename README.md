@@ -110,7 +110,7 @@ Frontend:
 
 Backend:
 - Java (if-else, switch, ArrayList, try-catch, etc).
-- Object Oriented Programming (OOP) Concepts: Classes, Inheritance, etc.
+- Object Oriented Programming (OOP) Concepts (Classes, Inheritance, etc).
 - Entity Management using `gamePanel`, `Level`, and `Entity` class structure.
 - Handling all the data & levels using `Array`.
 
