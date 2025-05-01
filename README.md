@@ -105,12 +105,12 @@
 
 ## Coding Information 🛠
 Frontend:
-- JavaFX (Stage, Scene, JButton, Label, Button, EventHandler, MediaPlayer, etc).
-- Custom 8-bit pixel art for UI & entities (Player, Zombies, Buttons, etc).
+- JavaFX (`Stage`, `Scene`, `JButton`, `Label`, `Button`, `EventHandler`, `MediaPlayer`, etc).
+- Custom 8-bit pixel art for UI & entities (`Player`, `Zombies`, `Buttons`, etc).
 
 Backend:
-- Java (if-else, switch, ArrayList, try-catch, etc).
-- Object Oriented Programming (OOP) Concepts (Classes, Inheritance, etc).
+- Java (`if-else`, `switch`, `ArrayList`, `try-catch`, etc).
+- Object Oriented Programming (OOP) Concepts (`Classes`, `Inheritance`, etc).
 - Entity Management using `gamePanel`, `Level`, and `Entity` class structure.
 - Handling all the data & levels using `Array`.
 
