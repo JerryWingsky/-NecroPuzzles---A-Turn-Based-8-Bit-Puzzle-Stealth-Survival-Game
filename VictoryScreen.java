@@ -20,22 +20,22 @@ public class VictoryScreen extends JPanel {
         setLayout(new BorderLayout());
         setBackground(Color.BLACK);
 
-        // Create the logo box
+        // Create the Logo Box.
         JPanel logoBox = createLogoBox();
 
-        // Create "YOU WIN" label
+        // Create "YOU WIN" Label.
         JLabel youWinLabel = new JLabel("YOU WIN");
         youWinLabel.setFont(new Font(FONT_FAMILY, Font.BOLD, 48));
         youWinLabel.setForeground(Color.GREEN);
         youWinLabel.setHorizontalAlignment(SwingConstants.CENTER);
 
-        // Panel to hold the "YOU WIN" label
+        // Panel to hold the "YOU WIN" Label.
         JPanel youWinBox = new JPanel();
         youWinBox.setBackground(Color.BLACK);
         youWinBox.setLayout(new BorderLayout());
         youWinBox.add(youWinLabel, BorderLayout.CENTER);
 
-        // Create "Next Level" button
+        // Create "Next Level" Button.
         JButton nextLevelButton = new JButton("Next Level");
         nextLevelButton.setFont(new Font(FONT_FAMILY, Font.PLAIN, 24));
         nextLevelButton.setBackground(Color.WHITE);
@@ -50,7 +50,7 @@ public class VictoryScreen extends JPanel {
 }
 });
 
-        // Create "Quit" button
+        // Create "Quit" Button.
         JButton quitButton = new JButton("Quit");
         quitButton.setFont(new Font(FONT_FAMILY, Font.PLAIN, 24));
         quitButton.setBackground(Color.WHITE);
@@ -64,14 +64,14 @@ public class VictoryScreen extends JPanel {
 }
 });
 
-        // Panel to hold the buttons
+        // Panel to Hold the Buttons.
         JPanel buttonBox = new JPanel();
         buttonBox.setBackground(Color.BLACK);
         buttonBox.setLayout(new GridLayout(2, 1, 20, 20));
         buttonBox.add(nextLevelButton);
         buttonBox.add(quitButton);
 
-        // Add components to the main panel
+        // Add Components to the Main Panel.
         add(logoBox, BorderLayout.NORTH);
         add(youWinBox, BorderLayout.CENTER);
         add(buttonBox, BorderLayout.SOUTH);
@@ -99,7 +99,7 @@ public class VictoryScreen extends JPanel {
 }
     public void loadNextLevel(){
         try {
-            mainApp.startGame(levelNum + 1); //makes sure that it goes to the next level
+            mainApp.startGame(levelNum + 1); // Makes sure that it goes to the Next Level.
             System.out.println("Load next level");
         } catch (IllegalArgumentException e){
             System.out.println("Invalid level number: " + (levelNum + 1));
@@ -111,19 +111,19 @@ public class VictoryScreen extends JPanel {
 }
 
     private void displayEndMessage() {
-        // Remove current components
+        // Remove current components.
         removeAll();
 
-        // Create "Thank you for playing" label
+        // Create "Thank you for playing" Label.
         JLabel endMessageLabel = new JLabel("Thank you for playing!");
         endMessageLabel.setFont(new Font(FONT_FAMILY, Font.BOLD, 48));
         endMessageLabel.setForeground(Color.GREEN);
         endMessageLabel.setHorizontalAlignment(SwingConstants.CENTER);
 
-        // Add label to the panel
+        // Add Label to the Panel.
         add(endMessageLabel, BorderLayout.CENTER);
 
-        // Create "Main Menu" button
+        // Create "Main Menu" Button.
         JButton mainMenuButton = new JButton("Main Menu");
         mainMenuButton.setFont(new Font(FONT_FAMILY, Font.PLAIN, 24));
         mainMenuButton.setBackground(Color.WHITE);
@@ -137,16 +137,16 @@ public class VictoryScreen extends JPanel {
 }
 });
 
-        // Panel to hold the button
+        // Panel to Hold the Button.
         JPanel buttonBox = new JPanel();
         buttonBox.setBackground(Color.BLACK);
         buttonBox.setLayout(new FlowLayout(FlowLayout.CENTER, 0, 20));
         buttonBox.add(mainMenuButton);
 
-        // Add button panel to the main panel
+        // Add Button Panel to the Main Panel.
         add(buttonBox, BorderLayout.SOUTH);
 
-        // Refresh the panel to display the message
+        // Refresh the Panel to display the message.
         revalidate();
         repaint();
 }
