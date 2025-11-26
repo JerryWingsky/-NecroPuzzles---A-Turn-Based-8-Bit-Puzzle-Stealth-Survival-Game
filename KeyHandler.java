@@ -8,10 +8,10 @@ public class keyHandler implements KeyListener {
 
     @Override
     public void keyTyped(KeyEvent e) {
-    // Not used
+    // Not used.
 }
 
-    // So when the key is pressed it will set the boolean above to true
+    // So when the key is pressed, it will set the Boolean above to True.
     @Override
     public void keyPressed(KeyEvent e) {
         int code = e.getKeyCode();
@@ -32,7 +32,7 @@ public class keyHandler implements KeyListener {
 }
 }
 
-    // Don't really mind this shit
+    // Don't really mind this.
     @Override
     public void keyReleased(KeyEvent e) {
         int code = e.getKeyCode();
@@ -53,7 +53,7 @@ public class keyHandler implements KeyListener {
             escapePressed = false;
 }
 }
-    // This is used to reset the keys
+    // This is used to reset the Keys.
     public void resetKeys() {
         upPressed = false;
         downPressed = false;
