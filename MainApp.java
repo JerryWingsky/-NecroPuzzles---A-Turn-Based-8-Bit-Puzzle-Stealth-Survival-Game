@@ -26,7 +26,7 @@ public class MainApp {
         frame = new JFrame("Game Menu");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(1024, 768);
-        frame.setResizable(false); // Make the window non-resizable
+        frame.setResizable(false); // Make the Window Non-Resizable.
 
         cardLayout = new CardLayout();
         cardPanel = new JPanel(cardLayout);
@@ -52,7 +52,7 @@ public class MainApp {
             @Override
             public void windowClosing(java.awt.event.WindowEvent windowEvent) {
                 if (gamePanel != null) {
-                    gamePanel.stopGame(); // Stop the game loop
+                    gamePanel.stopGame(); // Stop the Game Loop.
 }
                 System.exit(0);
 }
@@ -78,10 +78,10 @@ public class MainApp {
 
     public void showDeathScreen(int levelNum) {
         if (deathScreen == null) {
-            deathScreen = new DeathScreen(this, levelNum); // Pass the main app instance to the death screen
+            deathScreen = new DeathScreen(this, levelNum); // Pass the Main App instance to the Death Screen.
 }
         else {
-            deathScreen.updateLevelNumber(levelNum); // Ensure level number is updated
+            deathScreen.updateLevelNumber(levelNum); // Ensure Level Number is updated.
 }
         cardPanel.add(deathScreen, "DeathScreen");
         cardLayout.show(cardPanel, "DeathScreen");
@@ -92,7 +92,7 @@ public class MainApp {
             victoryScreen = new VictoryScreen(this, levelNum);
 }
         else {
-            victoryScreen.updateLevelNumber(levelNum); // Ensure level number is updated
+            victoryScreen.updateLevelNumber(levelNum); // Ensure Level Number is updated.
 }
         cardPanel.add(victoryScreen,"VictoryScreen");
         cardLayout.show(cardPanel,"VictoryScreen");
@@ -100,7 +100,7 @@ public class MainApp {
 
     public void showPauseScreen() {
         if (pauseScreen == null) {
-            pauseScreen = new PauseScreen(this, gamePanel); // Pass GamePanel to PauseScreen
+            pauseScreen = new PauseScreen(this, gamePanel); // Pass Game Panel to Pause Screen.
 }
         cardPanel.add(pauseScreen, "PauseScreen");
         cardLayout.show(cardPanel, "PauseScreen");
