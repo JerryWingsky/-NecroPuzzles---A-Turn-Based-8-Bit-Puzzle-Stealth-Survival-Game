@@ -20,22 +20,22 @@ public class DeathScreen extends JPanel {
         setLayout(new BorderLayout());
         setBackground(Color.BLACK);
 
-        // Create the logo box
+        // Create the Logo Box.
         JPanel logoBox = createLogoBox();
 
-        // Create "YOU LOSE" label
+        // Create "YOU LOSE" Label.
         JLabel youLoseLabel = new JLabel("YOU LOSE");
         youLoseLabel.setFont(new Font(FONT_FAMILY, Font.BOLD, 48));
         youLoseLabel.setForeground(Color.RED);
         youLoseLabel.setHorizontalAlignment(SwingConstants.CENTER);
 
-        // Panel to hold the "YOU LOSE" label
+        // Panel to hold the "YOU LOSE" Label.
         JPanel youLoseBox = new JPanel();
         youLoseBox.setBackground(Color.BLACK);
         youLoseBox.setLayout(new BorderLayout());
         youLoseBox.add(youLoseLabel, BorderLayout.CENTER);
 
-        // Create "Restart" button
+        // Create "Restart" Button.
         JButton restartButton = new JButton("Restart");
         restartButton.setFont(new Font(FONT_FAMILY, Font.PLAIN, 24));
         restartButton.setBackground(Color.WHITE);
@@ -49,7 +49,7 @@ public class DeathScreen extends JPanel {
 }
 });
 
-        // Create "Quit" button
+        // Create "Quit" Button.
         JButton quitButton = new JButton("Quit");
         quitButton.setFont(new Font(FONT_FAMILY, Font.PLAIN, 24));
         quitButton.setBackground(Color.WHITE);
@@ -64,14 +64,14 @@ public class DeathScreen extends JPanel {
 }
 });
 
-        // Panel to hold the buttons
+        // Panel to hold the buttons.
         JPanel buttonBox = new JPanel();
         buttonBox.setBackground(Color.BLACK);
         buttonBox.setLayout(new GridLayout(2, 1, 20, 20));
         buttonBox.add(restartButton);
         buttonBox.add(quitButton);
 
-        // Add components to the main frame
+        // Add Components to the Main Frame.
         add(logoBox, BorderLayout.NORTH);
         add(youLoseBox, BorderLayout.CENTER);
         add(buttonBox, BorderLayout.SOUTH);
@@ -99,7 +99,7 @@ public class DeathScreen extends JPanel {
 }
 
     public void restartLevel(){
-        mainApp.startGame(levelNum); // Call the method to restart the game
+        mainApp.startGame(levelNum); // Call the Method to Restart the Game.
         System.out.println("Level restarted");
 }
 
