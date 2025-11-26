@@ -34,7 +34,7 @@ public class MenuSelection {
         JLabel logoLabel = createLogoLabel("/menuResources/NecroPuzzles.png");
         logoPanel.add(logoLabel);
 
-        // Options Panel
+        // Options Panel.
         JPanel optionsPanel = new JPanel();
         optionsPanel.setBackground(Color.BLACK);
         optionsPanel.setLayout(new BoxLayout(optionsPanel, BoxLayout.Y_AXIS));
@@ -50,7 +50,7 @@ public class MenuSelection {
             optionBox.add(optionLabel);
             optionsPanel.add(optionBox);
 
-            // Add mouse listeners for hover effect
+            // Add Mouse Listeners for Hover Effect.
             optionLabel.addMouseListener(new MouseAdapter() {
                 @Override
                 public void mouseEntered(MouseEvent e) {
@@ -71,7 +71,7 @@ public class MenuSelection {
 });
 }
 
-        // Add components to menu panel
+        // Add Components to Menu Panel.
         menuPanel.add(logoPanel, BorderLayout.NORTH);
         menuPanel.add(optionsPanel, BorderLayout.CENTER);
 }
