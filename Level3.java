@@ -38,7 +38,7 @@ public class Level3 extends Level {
         spikes.add(new spike(gp, Player, "button", 256, 320, "down", buttons.get(0)));
         spikes.add(new spike(gp, Player, "button", 256, 256, "down", buttons.get(0)));
 
-        // Inserts the level tiles when you first load the level
+        // Inserts the Level tiles when you first load the Level.
         Player.zombieCanMove = true;
 }
 }
