@@ -27,22 +27,22 @@ public class LevelSelection {
         levelPanel.setLayout(new BorderLayout());
         levelPanel.setBackground(Color.BLACK);
 
-        // Title Panel
+        // Title Panel.
         JPanel titlePanel = new JPanel();
         titlePanel.setBackground(Color.BLACK);
         titlePanel.setPreferredSize(new Dimension(800, 100));
         titlePanel.setLayout(new BoxLayout(titlePanel, BoxLayout.Y_AXIS));
 
-        Component topStrut = Box.createVerticalStrut(30); // Create vertical strut to add space
+        Component topStrut = Box.createVerticalStrut(30); // Create Vertical Strut to add space.
         titlePanel.add(topStrut);
 
         JLabel titleLabel = new JLabel("GAME LEVELS");
         titleLabel.setFont(new Font("Arial", Font.BOLD, 40));
         titleLabel.setForeground(Color.WHITE);
-        titleLabel.setAlignmentX(Component.CENTER_ALIGNMENT); // Center the label horizontally
+        titleLabel.setAlignmentX(Component.CENTER_ALIGNMENT); // Center the Label horizontally.
         titlePanel.add(titleLabel);
 
-        // Levels Panel
+        // Levels Panel.
         JPanel levelsPanel = new JPanel();
         levelsPanel.setBackground(Color.BLACK);
         levelsPanel.setLayout(new BoxLayout(levelsPanel, BoxLayout.Y_AXIS));
@@ -56,13 +56,13 @@ public class LevelSelection {
             JPanel levelBox = new JPanel();
             levelBox.setBackground(Color.BLACK);
             levelBox.setLayout(new FlowLayout(FlowLayout.CENTER, 10, 10));
-            levelBox.setBorder(BorderFactory.createEmptyBorder(10, 0, 10, 0)); // Add margin on top and bottom
+            levelBox.setBorder(BorderFactory.createEmptyBorder(10, 0, 10, 0)); // Add Margin on Top & Bottom.
             levelBox.add(currentLevel);
             levelBox.add(levelLabel);
             levelsPanel.add(levelBox);
 }
 
-        // Back Label
+        // Back Label.
         JLabel backLabel = new JLabel("BACK");
         backLabel.setFont(NORMAL_FONT);
         backLabel.setForeground(Color.WHITE);
@@ -83,19 +83,19 @@ public class LevelSelection {
 }
 });
 
-        // Back Panel
+        // Back Panel.
         JPanel backPanel = new JPanel();
         backPanel.setBackground(Color.BLACK);
         backPanel.setPreferredSize(new Dimension(800, 100));
         backPanel.setLayout(new FlowLayout(FlowLayout.LEFT, 30, 30));
         backPanel.add(backLabel);
 
-        // Add components to level panel
+        // Add Components to the Level Panel.
         levelPanel.add(titlePanel, BorderLayout.NORTH);
         levelPanel.add(levelsPanel, BorderLayout.CENTER);
         levelPanel.add(backPanel, BorderLayout.SOUTH);
 
-        // Select the first level
+        // Select the First Level.
         selectCurrentLevel(0);
 }
 
