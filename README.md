@@ -1,18 +1,18 @@
 # "NecroPuzzles" Game 🎮
 
-📄 Licensed under CC BY-NC 4.0 — For educational & non-commercial use only.
+📄 Licensed under CC BY-NC 4.0 — For Educational & Non-Commercial Use Only.
 
 ## Overview ✨
 
-**NecroPuzzles**, a retro-styled 8-bit stealth puzzle game where survival is your only mission. Navigate through a deadly facility swarming with zombies, dodge traps, and outsmart the undead to escape. With four levels of increasing difficulty, dynamic pixel art, and immersive sound effects, **NecroPuzzles** delivers a thrilling mix of strategy & suspense. Whether you're unlocking doors, avoiding spikes, or planning your next stealthy move, every step counts. Victory awaits—but only for the clever & the strongest. Good luck, and may the best player win.
+**NecroPuzzles**, a **Retro-Styled 8-Bit Stealth Puzzle Game** where **Survival** is your only **Mission**. Navigate through a **Deadly Facility Swarming with Zombies**, **Dodge Traps**, and **Outsmart the Undead to Escape**. With **Four Levels** of increasing **Difficulty**, **Dynamic Pixel Art**, and **Immersive Sound Effects**, **NecroPuzzles** delivers a thrilling mix of **Strategy & Suspense**. Whether you're unlocking **Doors**, **Avoiding Spikes**, or **Planning Your Xext Stealthy Move**, every step counts. Victory awaits—but only for the **Clever & The Strongest**. Good luck, and may the best player win.
 
 ## "NecroPuzzles" Gameplay Mechanics 🧟
 **1. 1️⃣ Start Up**
 
-- The game starts at a **Main Menu** screen.
-- It contains the **New Game** button, which is where users will play the game from the start.
-- The **Level Selection** button, which is where users will select any levels from 1-4.
-- The **Quit** button, which will exit the system, ending the application.
+- The game starts at a **Main Menu** Screen.
+- It contains the **New Game** Button, which is where **Users** will play the game from the start.
+- The **Level Selection** Button, which is where users will select any levels from 1-4.
+- The **Quit** Button, which will exit the system, ending the application.
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/7b1b6e8e-5583-4c85-b8b0-3dc362f3cd5a" alt="Image" width="500"/>
@@ -22,7 +22,7 @@
 
 **2. 🎚️ Level Selection**
 
-- Player can choose any level to start from, it can be level 1 or level 4. Each with increasing difficulty & unique map designs.
+- Player can choose any level to start from, it can be **Level 1** or **Level 4**. Each with increasing **Difficulty & Unique Map Designs**.
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/e88f7d7a-124d-4508-8fb0-8181d292444a" alt="Image" width="500"/>
@@ -49,11 +49,11 @@
 </p>
 
 **3. 📈 Difficulty**
-- Each level is harder than the last (zombie placement, traps, etc).
-- Players can pick any level from the **Level Selection** menu.
+- Each level is harder than the last **(Zombie Placement**, **Traps**, etc).
+- Players can pick any level from the **Level Selection** Menu.
 
 **4. ⏸️ Pause**
-- Pressing `ESC` opens a pause menu with options: **Resume**, **Restart**, or **Back to Menu**.
+- Pressing `ESC` opens a **Pause Menu** with options: **Resume**, **Restart**, or **Back to Menu**.
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/4edaba12-b797-45fa-92c0-7f6e1a34b1e3" width="500"/>
@@ -62,7 +62,7 @@
 </p>
 
 **5. 🏁 Win**
-- Escape through the door while avoiding zombies = Victory Screen.
+- Escape through the door while **Avoiding Zombies** = **Victory Screen**.
 - Options to **Next Level** or **Quit** are shown.
 
 <p align="center">
@@ -71,7 +71,7 @@
 <strong><em>Figure 7: Win Screen</em></strong>
 </p>
 
-- After beating the last level, a special **Thank You Screen** is shown.
+- After beating the **Last Level** (**Level 4**), a special **Thank You Screen** is shown.
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/9f7fbf0d-cc7f-4a6e-bb00-041fa308389f" width="500"/>
@@ -80,7 +80,7 @@
 </p>
 
 **6. ❌ Lose**
-- Touching or being detected by zombies = Death Screen.
+- **Touching** or **Being Detected** by **Zombies** = **Death Screen**.
 - Options to **Restart** or **Quit** are shown.
 
 <p align="center">
@@ -90,29 +90,29 @@
 </p>
 
 **7. 🎨 Retro Pixel Art** 
-- Custom 8-bit art for characters, environments, and menus to give nostalgic visuals.
+- **Custom 8-Bit Art** for **Characters**, **Environments**, and **Menus to Give Nostalgic Visuals**.
 
 **8. 🔊 Sound Effects**
-- Dynamic background music & sound effects enhance the experience.
+- **Dynamic Background Music** & **Sound Effects** enhance the experience.
 
 ## How to Play 🎮
-- Use the **A**, **W**, **S**, and **D** keys to move your character. 
-- Avoid zombies & traps like spikes to go to the next level.
-- Press buttons to deactivate traps.
-- Reach the exit door to win the level.
-- Press `ESC` to pause the game.
-- Failing to avoid zombies = Game Over.
+- Use the **A**, **W**, **S**, and **D** Keys to move your **Character**. 
+- Avoid **Zombies & Traps** like **Spikes** to go to the **Next Level**.
+- Press **Buttons** to **Deactivate Traps**.
+- Reach the **Exit Door** to **Win the Level**.
+- Press `ESC` to **Pause** the game.
+- Failing to **Avoid Zombies** = **Game Over**.
 
 ## Coding Information 🛠
-Frontend:
+Front-End:
 - JavaFX (`Stage`, `Scene`, `JButton`, `Label`, `Button`, `EventHandler`, `MediaPlayer`, etc).
-- Custom 8-bit pixel art for UI & entities (`Player`, `Zombies`, `Buttons`, etc).
+- Custom 8-Bit Pixel Art for UI & Entities (`Player`, `Zombies`, `Buttons`, etc).
 
-Backend:
+Back-End:
 - Java (`if-else`, `switch`, `ArrayList`, `try-catch`, etc).
 - Object Oriented Programming (OOP) Concepts (`Classes`, `Inheritance`, etc).
-- Entity Management using `gamePanel`, `Level`, and `Entity` class structure.
-- Handling all the data & levels using `Array`.
+- Entity Management using `gamePanel`, `Level`, and `Entity` Class Structure.
+- Handling all the Data & Levels using `Array`.
 
 ## Contributors 👥
 1. Jerry Wingsky ([@jrywsky](https://linktr.ee/JerryWingsky))
