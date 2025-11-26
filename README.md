@@ -4,14 +4,14 @@
 
 ## Overview ✨
 
-**NecroPuzzles**, a **Retro-Styled 8-Bit Stealth Puzzle Game** where **Survival** is your only **Mission**. Navigate through a **Deadly Facility Swarming with Zombies**, **Dodge Traps**, and **Outsmart the Undead to Escape**. With **Four Levels** of increasing **Difficulty**, **Dynamic Pixel Art**, and **Immersive Sound Effects**, **NecroPuzzles** delivers a thrilling mix of **Strategy & Suspense**. Whether you're unlocking **Doors**, **Avoiding Spikes**, or **Planning Your Xext Stealthy Move**, every step counts. Victory awaits—but only for the **Clever & The Strongest**. Good luck, and may the best player win.
+**NecroPuzzles**, a **Retro-Styled 8-Bit Stealth Puzzle Game** where **Survival** is your only **Mission**. Navigate through a **Deadly Facility Swarming with Zombies**, **Dodge Traps**, and **Outsmart the Undead to Escape**. With **Four Levels** of increasing **Difficulty**, **Dynamic Pixel Art**, and **Immersive Sound Effects**, **NecroPuzzles** delivers a thrilling mix of **Strategy & Suspense**. Whether you're unlocking **Doors**, **Avoiding Spikes**, or **Planning Your Next Stealthy Move**, every step counts. Victory awaits—but only for the **Clever & The Strongest**. Good luck, and may the best player win.
 
 ## "NecroPuzzles" Gameplay Mechanics 🧟
 **1. 1️⃣ Start Up**
 
 - The game starts at a **Main Menu** Screen.
 - It contains the **New Game** Button, which is where **Users** will play the game from the start.
-- The **Level Selection** Button, which is where users will select any levels from 1-4.
+- The **Level Selection** Button, which is where **Users** will select any levels from 1-4.
 - The **Quit** Button, which will exit the system, ending the application.
 
 <p align="center">
