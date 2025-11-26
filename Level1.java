@@ -15,7 +15,7 @@ public class Level1 extends Level {
         zombies.add(new zombie(gp, Player, "moving", 640, 384, "right"));
         zombies.add(new zombie(gp, Player, "static", 448, 256, "right"));
 
-        // Inserts the level tiles when you first load the level
+        // Inserts the Level tiles when you first load the Level.
         Player.zombieCanMove = true;
 }
 }
