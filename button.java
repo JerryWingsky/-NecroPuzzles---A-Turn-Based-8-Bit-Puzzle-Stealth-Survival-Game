@@ -9,7 +9,7 @@ public final class button extends entity {
     private final player Player;
     private final SoundPlayer buttonSound;
 
-    // Just a constructor to connect the main game panel
+    // Just a constructor to connect the Main Game Panel.
     public button(GamePanel gp, player Player, String type, int x, int y, String state) {
         this.gp = gp;
         this.Player = Player;
@@ -22,9 +22,9 @@ public final class button extends entity {
 
     public void update() {
         if (Player.zombieCanMove) {
-            // Only player can change the state of this button
+            // Only player can change the state of this Button.
             if (type.equals("player")) {
-                // Changes the button state from up to down
+                // Changes the Button state from up to down.
                 if (Player.x == x && Player.y == y && state == "up") {
                     state = "down";
                     System.out.println("Button pushed");
@@ -41,7 +41,7 @@ public final class button extends entity {
 }
 }
 
-    // Apply the changes made from the update(); method
+    // Apply the changes made from the update(); Method.
     public void chgBtnState (String state) {
         int col = x / gp.tileSize;
         int row = y / gp.tileSize;
