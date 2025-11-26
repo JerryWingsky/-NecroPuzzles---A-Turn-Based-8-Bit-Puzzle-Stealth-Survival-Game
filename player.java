@@ -21,7 +21,7 @@ public final class player extends entity {
     private final SoundPlayer lose;
 
 
-    // Player constructor
+    // Player Constructor.
     public player(GamePanel gp, keyHandler keyH, int x, int y, String direction) {
         this.gp = gp;
         this.keyH = keyH;
@@ -35,7 +35,7 @@ public final class player extends entity {
         this.lose = new SoundPlayer("/gameSounds/audioFiles/zombienoise.wav");
 }
 
-    // Gets the player sprite
+    // Gets the player sprite.
     public void getPlayerImage() {
         try {
             up1 = ImageIO.read(getClass().getResourceAsStream("/entitySprites/player/PlayerUp1.png"));
@@ -54,18 +54,18 @@ public final class player extends entity {
 }
 }
 
-    // Update cycle for the player
+    // Update cycle for the player.
     public void update() {
         long currentTime = System.currentTimeMillis();
-        // Animation
+        // Animation.
         spriteAnim();
 
-        // The player can only move when the cooldown is out
+        // The player can only move when the cooldown is out.
         if (currentTime - lastMoveTime >= cooldown) {
             int newX = x, newY = y;
             moved = false;
 
-            // Move to directions
+            // Move to directions.
             if (keyH.upPressed) {
                 newY -= speed;
                 direction = "up";
@@ -83,12 +83,12 @@ public final class player extends entity {
                 direction = "right";
                 moved = true;
             }
-            // Pause when pressing escape
+            // Pause when pressing escape.
             else if (keyH.escapePressed) {
                 gp.pauseGame();
 }
 
-            // Check for collision with walls or other obstacle
+            // Check for collision with walls or other obstacles.
             if (moved && canMove(newX, newY)) {
                 zombieCanMove = true;
                 x = newX;
@@ -100,12 +100,12 @@ public final class player extends entity {
                 footstepSound.play();
 }
 
-            // Resets keys pressed
+            // Resets keys pressed.
             keyH.resetKeys();
 }
 }
 
-    // Check for collision with walls or other obstacle
+    // Check for collision with walls or other obstacles.
     private boolean canMove(int newX, int newY) {
         int col = newX / gp.tileSize;
         int row = newY / gp.tileSize;
@@ -117,16 +117,16 @@ public final class player extends entity {
         return !gp.tileM.isTileCollision(col, row);
 }
 
-    // Check if the player is dead or have gone through the exit
-    private boolean zombieInteracted = false; // New flag to track interaction
+    // Check if the player is dead or has gone through the exit.
+    private boolean zombieInteracted = false; // New flag to track interaction.
     public void checkTileUpdates(int x, int y) {
         if (!zombieInteracted && isDead(x, y)) {
             lose.stop();
             lose.play();
 
             System.out.println("Player died");
-            zombieInteracted = true; // Set flag to true after interaction occurs
-            gp.showDeathScreen(gp.levelNumber); // Show the death screen
+            zombieInteracted = true; // Set flag to True after interaction occurs.
+            gp.showDeathScreen(gp.levelNumber); // Show the Death Screen.
 }
  
         if (!zombieInteracted && isVictory(x, y)) {
@@ -134,12 +134,12 @@ public final class player extends entity {
             win.play();
 
             System.out.println("Player escaped");
-            zombieInteracted = true; // Set flag to true after interaction occurs
+            zombieInteracted = true; // Set flag to true after interaction occurs.
             gp.showVictoryScreen(gp.levelNumber);
 }
 }
 
-    // Checks for danger tile
+    // Checks for Danger Tile.
     private boolean isDead(int newX, int newY) {
         int col = newX / gp.tileSize;
         int row = newY / gp.tileSize;
@@ -147,7 +147,7 @@ public final class player extends entity {
         return gp.tileM.isTileDeath(col, row);
 }
 
-    // Checks for exit tile
+    // Checks for Exit Tile.
     private boolean isVictory(int newX, int newY) {
         int col = newX / gp.tileSize;
         int row = newY / gp.tileSize;
@@ -155,13 +155,13 @@ public final class player extends entity {
         return gp.tileM.isTileVictory(col, row);
 }
 
-    // Updates the amount of moves
+    // Updates the number of moves.
     private void moveUpdate() {
         Moves++;
         System.out.println("Current Moves: " + Moves);
 }
 
-    // Draw the sprite
+    // Draw the sprite.
     public void draw(Graphics2D g2) {
         BufferedImage image = null;
         switch (direction) {
@@ -181,7 +181,7 @@ public final class player extends entity {
         g2.drawImage(image, x, y, gp.tileSize, gp.tileSize, null);
 }
 
-    // Sprite animation
+    // Sprite animation.
     public void spriteAnim() {
         spriteCounter++;
         if (spriteCounter > 20) {
