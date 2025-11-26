@@ -2,7 +2,7 @@ package entity;
 
 import java.awt.image.BufferedImage;
 
-// The entity superclass so entities can use it to instantiate their variables
+// The Entity Superclass so Entities can use it to instantiate their variables.
 public class entity {
     public int x,y;
     public int speed;
