@@ -136,5 +136,5 @@ Back-End:
 
 4. Eins Herbert Takawijaya Tee ([Eins](https://github.com/Estody))
 - Map & Level Designer.
-- Asset Artist
+- Asset Artist.
 - Player, Tile, Moving, and Hitbox Logic.
