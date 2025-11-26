@@ -12,15 +12,15 @@ public final class tileManager{
     GamePanel gp;
     tile[] tile;
     int mapTileNum[][];
-    // Just importing everything above
-    // An constructor
+    // Just importing everything above.
+    //A constructor.
     public tileManager(GamePanel gp, int level){
         this.gp = gp;
 
-        tile = new tile[100];// Max amount of tile
+        tile = new tile[100]; // Max amount of tile.
         mapTileNum = new int[gp.maxScreenCol][gp.maxScreenRow];
         getTileImage();
-        loadMap("/maps/level" + level + ".txt");// This is for loading the map data
+        loadMap("/maps/level" + level + ".txt"); // This is for loading the map data.
         setCollisionForTiles(new int[]{1,2,3,4,5,6,7,8,9,10,13,16,17,18,19,20,26,27,28,29,36,37,39,40,46,50,53,54,56,57,59,60,63,64,66,70,74,76,77,79,80,82,83,86,87,88,89,90,92,93,97,98,99});
         setDeathForTiles(new int[]{25,35,55,65});
         setVictoryForTiles(new int []{33,42});
@@ -75,7 +75,7 @@ public final class tileManager{
 }
 }
 
-    // Used when instantiating the tile manager
+    // Used when instantiating the Tile Manager.
     public void setCollisionForTiles(int[] indices) {
         for (int i : indices) {
             if (i >= 0 && i < tile.length) {
@@ -85,7 +85,7 @@ public final class tileManager{
 }
 }
 
-    // Used when instantiating the tile manager
+    // Used when instantiating the Tile Manager.
     public void setDeathForTiles(int[] indices) {
         for (int i : indices) {
             if (i >= 0 && i < tile.length) {
@@ -95,7 +95,7 @@ public final class tileManager{
 }
 }
 
-    // Used when instantiating the tile manager
+    // Used when instantiating the Tile Manager.
     public void setVictoryForTiles(int[] indices) {
         for (int i : indices) {
             if (i >= 0 && i < tile.length) {
@@ -105,7 +105,7 @@ public final class tileManager{
 }
 }
 
-    // Used when instantiating the tile manager
+    // Used when instantiating the Tile Manager.
     public void setZombiePathTiles(int[] indices) {
         for (int i : indices) {
             if (i >= 0 && i < tile.length) {
@@ -115,7 +115,7 @@ public final class tileManager{
 }
 }
 
-    // Used when instantiating the tile manager
+    // Used when instantiating the Tile Manager.
     public void setPlayerPathTiles(int[] indices) {
         for (int i : indices) {
         if (i >= 0 && i < tile.length) {
