@@ -99,7 +99,7 @@
 - Use the **A**, **W**, **S**, and **D** Keys to move your **Character**. 
 - Avoid **Zombies & Traps** like **Spikes** to go to the **Next Level**.
 - Press **Buttons** to **Deactivate Traps**.
-- Reach the **Exit Door** to **Win the Level**.
+- Reach the **Exit Door** to **Win** the **Level**.
 - Press `ESC` to **Pause** the game.
 - Failing to **Avoid Zombies** = **Game Over**.
 
