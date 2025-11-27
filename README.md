@@ -118,7 +118,10 @@ Back-End:
 1. Jerry Wingsky ([@jrywsky](https://linktr.ee/JerryWingsky))
 - Menu & Level Selection Codes.
 - Victory & Death Screen & Codes.
+- Human Codes.
+- Zombie & Human Movement Codes.
 - Debugging the Code.
+- Major Debugging in Menu & Level Selection Codes & Victory & Death Screen & Codes.
 - Proofreading All Documents & Codes.
 
 2. Kelvin ([Kelvin](https://github.com/posturecheck))
