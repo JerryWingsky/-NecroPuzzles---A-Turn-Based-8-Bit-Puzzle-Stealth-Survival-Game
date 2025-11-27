@@ -109,7 +109,7 @@ Front-End:
 - Custom 8-Bit Pixel Art for UI & Entities (`Player`, `Zombies`, `Buttons`, etc).
 
 Back-End:
-- Java (`if-else`, `switch`, `ArrayList`, `try-catch`, etc).
+- Java (`If-Else`, `Switch`, `ArrayList`, `Try-Catch`, etc).
 - Object Oriented Programming (OOP) Concepts (`Classes`, `Inheritance`, etc).
 - Entity Management using `gamePanel`, `Level`, and `Entity` Class Structure.
 - Handling all the Data & Levels using `Array`.
