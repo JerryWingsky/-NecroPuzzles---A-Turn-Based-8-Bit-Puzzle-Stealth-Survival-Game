@@ -2,6 +2,8 @@
 
 📄 Licensed under CC BY-NC 4.0 — For Educational & Non-Commercial Use Only.
 
+🔗 [View Full License Terms](https://creativecommons.org/licenses/by-nc/4.0/)
+
 ## Overview ✨
 
 **NecroPuzzles**, a **Retro-Styled 8-Bit Stealth Puzzle Game** where **Survival** is your only **Mission**. Navigate through a **Deadly Facility Swarming with Zombies**, **Dodge Traps**, and **Outsmart the Undead to Escape**. With **Four Levels** of increasing **Difficulty**, **Dynamic Pixel Art**, and **Immersive Sound Effects**, **NecroPuzzles** delivers a thrilling mix of **Strategy & Suspense**. Whether you're unlocking **Doors**, **Avoiding Spikes**, or **Planning Your Next Stealthy Move**, every step counts. Victory awaits—but only for the **Clever & The Strongest**. Good luck, and may the best player win.
